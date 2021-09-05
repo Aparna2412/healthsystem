@@ -3098,7 +3098,7 @@
 
             ]);
 
-            /** Logic set to enable Reports/Feedback for patients **/
+            /** Logic set to enable Reports/Feedback for patients. **/
             if(db.user.role === "Patient"){
                 if (this.data.level === 1 )
                     this.buttonsDiv.addComponent([
